@@ -1,1 +1,3 @@
 # V3.0
+
+Šiame projekte buvo pridėta galimybė parsisųsti mysetup.exe. Kad tai padaryti reikia turėti parsisiuntus Inno setup. Tai galima atlikti jų oficialiame puslapyje https://jrsoftware.org/isdl.php. Atsidarius Inno setup compiler nukopijuokite į atskirus failus setup.iss ir setup2.iss. setup.iss į "C:/Program files/VU/Vardenis-Pavardenis" sukurs failą "studentai.txt", o setup2.iss sukurs "v3.0.exe" failą tame pačiame aplankale. Kad šie setup failai suveiktų, reikia parsisiųsti v3.0.cpp, sukompiliuoti ir pakeisti kelią iki sukurto v3.0.exe failo jūsų kompiuteryje, taip par reikia parsisiųsti failą studentai.txt ir pakeisti faile setup.iss jo buvimo vietą. 
